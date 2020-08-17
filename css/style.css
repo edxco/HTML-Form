@@ -16,6 +16,7 @@ a{
 
 body{
     background-color: #eceef1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
@@ -48,10 +49,9 @@ main{
 
 footer{
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     flex-wrap: wrap;
-    height: 60;
+    height: 60px;
     font-size: 12px;
     width: 90%;
     color: #505050;
@@ -85,7 +85,6 @@ footer{
 }
 
 #sign-in-btn{
-    font-family: Arial, Helvetica, sans-serif;
     border-radius: 4px;
     border-color: black;
     background-color: #0077C5;
@@ -97,21 +96,30 @@ footer{
     height: 34px;
 }
 
-.header-txt{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-}
+.header-txt{ font-size: 12px; }
+
+/* Password icon position */
+#icon{
+  background-image:url(../img/passw-icon.jpg); 
+  background-repeat: no-repeat; 
+  background-position: right;
+  padding-right: 45px;
+  width: 280px !important; 
+  }
+
+/* Form Layout */
 
 form fieldset{
     border-color: transparent;
 }
 
 #formcont form{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: #fff;
     padding: 15px;
-    border: 1px solid #c7c7c7;
+    border-top: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
     border-radius: 2px;
     width: 365px;
 }
@@ -155,9 +163,6 @@ form a{
     border: 1px solid #C1C5C8;
 }
 
-.lockbg{
-    background: url(img/passw-icon.jpg);
-}
 
 #terms{
     width: 100%;
@@ -172,14 +177,17 @@ form a{
 }
 
 #captcha{
-    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
+    text-align: center;
+    padding-top: 35px;
     background-color: #ECEEF1;
     font-size: 11px;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    border-left: 1px solid #c7c7c7;
     color: #757575;
-    width: 365px;
+    width: 100%;
     height: 50px;
 }
 
