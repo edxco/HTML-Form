@@ -1,0 +1,16 @@
+/* Gobal */
+.d-flex{display: flex;}
+
+/* Layout */
+header{ 
+  justify-content: flex-end;
+  width: 100vw;
+  height: 20px;
+  flex-wrap: wrap;
+  background-color: fuchsia;
+}
+
+#sign-up-section{
+  width: 20%;
+  background-color: blue;
+}
