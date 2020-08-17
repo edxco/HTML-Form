@@ -6,6 +6,7 @@
     <title>HTML FORM DOC</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/41738b16c0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="d-flex">
@@ -14,15 +15,33 @@
                 Already have an Intuit account?</br><a href="#">I forgot my User ID or Password</a>
             </div>
             <div id="sc-right">
-                <button id="sign-in-btn">Sign In</button>
+                <button id="sign-in-btn"><i class="fas fa-lock"></i> Sign In</button>
             </div>
         </div>
     </header>
 
     <main class="d-flex">
         <div class="d-flex" id="formcont">
-            <div>IMAGE</div>
-            <div></div>
+            <div>
+                <img class="center" src="img/main-img.JPG">
+                <form>
+                    <h1>Create an Intuit account</h1>
+                    <p>One account for everything Intuit. <a href="#">Learn more</a></p>
+                    <fieldset id="fsemail">
+                        <label class="labels-format">Email address</label><br>
+                        <input type="email" name="email" class="inputs-format">
+                    </fieldset>
+                    <fieldset id="fsphone">
+                        <label class="labels-format">Phone (recommended)</label><br>
+                        <input type="tel" name="tel" class="inputs-format">
+                    </fieldset>
+                    <fieldset id="fspassw">
+                        <label class="labels-format">Password</label><br>
+                        <input type="password" name="password" class="inputs-format">
+                    </fieldset>
+                    <button id="main-button" type="submit" name="SignUp">Create Account</button>
+                </form>
+            </div>
         </div>
     </main>
 
