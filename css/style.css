@@ -6,11 +6,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
     }
 
 a{
     color: #0077c5;
     text-decoration: none;
+}
+
+body{
+    background-color: #eceef1;
 }
 
 h1{
@@ -30,7 +35,6 @@ header{
     display: flex;
     width: 100vw;
     height: 60px;
-    background-color: aqua;
     align-items: center;
     justify-content: flex-end;
 }
@@ -38,18 +42,18 @@ header{
 main{
     width: 100vw;
     height: 100%;
-    background-color: #ECEEF1;
     margin: 10px 0;
     justify-content: center;
 }
 
 footer{
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     flex-wrap: wrap;
     height: 60;
     font-size: 12px;
-    width: 100%;
+    width: 90%;
     color: #505050;
     padding-top: 20px;
 }
@@ -57,7 +61,6 @@ footer{
 #signin-cont{
     height: 90%;
     width: 300px;
-    background-color: blue;
     margin-right: 25px;
     align-items: center;
 }
@@ -69,7 +72,6 @@ footer{
     flex-wrap: wrap;
     width: 60%;
     height: 70%;
-    background-color: chartreuse;
     margin-right: 1px;
 }
 
@@ -79,7 +81,6 @@ footer{
     justify-content: center;
     width: 40%;
     height: 85%;
-    background-color: chartreuse;
     margin-left: 1px;
 }
 
@@ -112,6 +113,7 @@ form fieldset{
     padding: 15px;
     border: 1px solid #c7c7c7;
     border-radius: 2px;
+    width: 365px;
 }
 
 form a{
@@ -120,10 +122,15 @@ form a{
     font-size: 12px;
 }
 
+#ratesmayapply{
+    font-size: 10px;
+}
+
 #main-button{
+    margin: 25px 0 0 7%;
     background-color: #0077C5;
     color: #fff;
-    width: 100%;
+    width: 85%;
     height: 44px;
     cursor: pointer;
     border-radius: 3px;
@@ -146,6 +153,34 @@ form a{
     font-size: 1.2em;
     line-height: 1.3em;
     border: 1px solid #C1C5C8;
+}
+
+.lockbg{
+    background: url(img/passw-icon.jpg);
+}
+
+#terms{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    width: 318px;
+    padding-top: 35px;
+    margin: auto;
+    font-style: italic;
+    color: #757575;
+    line-height: 1.5em;
+}
+
+#captcha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    background-color: #ECEEF1;
+    font-size: 11px;
+    color: #757575;
+    width: 365px;
+    height: 50px;
 }
 
 .foot-c{
