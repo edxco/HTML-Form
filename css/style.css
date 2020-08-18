@@ -32,29 +32,13 @@ p{
     text-align: center;
 }
 
+
+/* Begin Header */
 header{
     width: 100vw;
     height: 60px;
     align-items: center;
     justify-content: flex-end;
-}
-
-main{
-    width: 100vw;
-    height: 100%;
-    margin: 10px 0;
-    justify-content: center;
-}
-
-footer{
-    margin: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 60px;
-    font-size: 12px;
-    width: 90%;
-    color: #505050;
-    padding-top: 20px;
 }
 
 #signin-cont{
@@ -95,85 +79,81 @@ footer{
 
 .header-txt{ font-size: 12px; }
 
+
+/* Begin Main */
+main{
+    width: 100vw;
+    height: 100%;
+    margin: 10px 0;
+    justify-content: center;
+}
+
 /* Password icon position */
 #icon{
-  background-image:url(../img/passw-icon.jpg); 
-  background-repeat: no-repeat; 
-  background-position: right;
-  padding-right: 45px;
-  width: 280px;
+    background-image:url(../img/passw-icon.jpg); 
+    background-repeat: no-repeat; 
+    background-position: right;
+    padding-right: 45px;
+    width: 280px;
+    }
+  
+  /* Form Layout */
+  
+  form fieldset{
+      border-color: transparent;
+  }
+  
+  #formcont form{
+      font-size: 14px;
+      background-color: #fff;
+      padding: 15px;
+      border-top: 1px solid #c7c7c7;
+      border-right: 1px solid #c7c7c7;
+      border-left: 1px solid #c7c7c7;
+      border-radius: 2px;
+      width: 365px;
+  }
+  
+  form a{
+      color: #0077C5;
+      cursor: pointer;
+      font-size: 12px;
+  }
+  
+  #ratesmayapply{
+      font-size: 10px;
+  }
+  
+  #main-button{
+      margin: 25px 0 0 7%;
+      background-color: #0077C5;
+      color: #fff;
+      width: 85%;
+      height: 44px;
+      cursor: pointer;
+      border-radius: 3px;
+  }
+  
+  .labels-format{
+      color: #404040;
+      font-size: 14px;
+      line-height: 30px;
+      padding-bottom: 6px;
+  }
+  
+  .inputs-format{
+      height: 34px;
+      width: 320px;
+      min-width: 160px;
+      padding-left: 8px;
+      padding-right: 6px;
+      color: #000;
+      font-size: 1.2em;
+      line-height: 1.3em;
+      border: 1px solid #C1C5C8;
   }
 
-/* Form Layout */
-
-form fieldset{
-    border-color: transparent;
-}
-
-#formcont form{
-    font-size: 14px;
-    background-color: #fff;
-    padding: 15px;
-    border-top: 1px solid #c7c7c7;
-    border-right: 1px solid #c7c7c7;
-    border-left: 1px solid #c7c7c7;
-    border-radius: 2px;
-    width: 365px;
-}
-
-form a{
-    color: #0077C5;
-    cursor: pointer;
-    font-size: 12px;
-}
-
-#ratesmayapply{
-    font-size: 10px;
-}
-
-#main-button{
-    margin: 25px 0 0 7%;
-    background-color: #0077C5;
-    color: #fff;
-    width: 85%;
-    height: 44px;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-.labels-format{
-    color: #404040;
-    font-size: 14px;
-    line-height: 30px;
-    padding-bottom: 6px;
-}
-
-.inputs-format{
-    height: 34px;
-    width: 320px;
-    min-width: 160px;
-    padding-left: 8px;
-    padding-right: 6px;
-    color: #000;
-    font-size: 1.2em;
-    line-height: 1.3em;
-    border: 1px solid #C1C5C8;
-}
-
-
-#terms{
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    width: 318px;
-    padding-top: 35px;
-    margin: auto;
-    font-style: italic;
-    color: #757575;
-    line-height: 1.5em;
-}
-
-#captcha{
+  #captcha{
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -186,6 +166,31 @@ form a{
     color: #757575;
     width: 100%;
     height: 50px;
+}
+
+/* Begin Footer */
+
+footer{
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 60px;
+    font-size: 12px;
+    width: 90%;
+    color: #505050;
+    padding-top: 20px;
+}
+
+#terms{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    width: 318px;
+    padding-top: 35px;
+    margin: auto;
+    font-style: italic;
+    color: #757575;
+    line-height: 1.5em;
 }
 
 .foot-c{
