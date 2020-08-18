@@ -4,8 +4,7 @@
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-bottom: 10px;
     }
 
@@ -17,22 +16,18 @@ a{
 body{
     background-color: #eceef1;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 h1{
-    color: #4C4C4C;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
 }
 
-p{
-    font-size: 14px;
-    color: #4C4C4C;
-    text-align: center;
-}
+p{ text-align: center;}
 
-
+.grey{ color: #4C4C4C;}
 /* Begin Header */
 header{
     width: 100vw;
@@ -67,9 +62,8 @@ header{
 
 #sign-in-btn{
     border-radius: 4px;
-    border-color: black;
     background-color: #0077C5;
-    border-width: 1px;
+    border: 1px solid #000;
     padding: 0 20px;
     color: #fff;
     font-size: 0.9em;
@@ -95,7 +89,6 @@ main{
 
 .icons-box{
     padding: 10px;
-    color: #8D9096;
     font-size: 18px;
     align-items: center;
 }
@@ -104,9 +97,7 @@ main{
 
 /* Password icon position */
 #icon{
-    background-image:url(../img/passw-icon.jpg); 
-    background-repeat: no-repeat; 
-    background-position: right;
+    background: url(../img/passw-icon.jpg) no-repeat right;
     padding-right: 45px;
     width: 280px;
     }
@@ -118,7 +109,6 @@ main{
   }
   
   #formcont form{
-      font-size: 14px;
       background-color: #fff;
       padding: 15px;
       border-top: 1px solid #c7c7c7;
@@ -134,9 +124,7 @@ main{
       font-size: 12px;
   }
   
-  #ratesmayapply{
-      font-size: 10px;
-  }
+  #ratesmayapply{ font-size: 10px;}
   
   #main-button{
       margin: 25px 0 0 7%;
@@ -150,7 +138,6 @@ main{
   
   .labels-format{
       color: #404040;
-      font-size: 14px;
       line-height: 30px;
       padding-bottom: 6px;
   }
@@ -159,8 +146,7 @@ main{
       height: 34px;
       width: 320px;
       min-width: 160px;
-      padding-left: 8px;
-      padding-right: 6px;
+      padding: 0 6px 0 8px;
       color: #000;
       font-size: 1.2em;
       line-height: 1.3em;
@@ -198,7 +184,6 @@ footer{
 #terms{
     width: 100%;
     text-align: center;
-    font-size: 14px;
     width: 318px;
     padding-top: 35px;
     margin: auto;
