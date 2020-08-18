@@ -88,6 +88,20 @@ main{
     justify-content: center;
 }
 
+#icons-position{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.icons-box{
+    padding: 10px;
+    color: #8D9096;
+    font-size: 18px;
+    align-items: center;
+}
+
+.icons-box a{ color: #71747B;}
+
 /* Password icon position */
 #icon{
     background-image:url(../img/passw-icon.jpg); 
