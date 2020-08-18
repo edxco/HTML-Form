@@ -19,15 +19,6 @@ Flexbox
 ## Live Demo
 [Live Demo Link](https://edxco.github.io/HTML-Form/ "Live Demo")
 
-## Getting Started
-
-### Prerequisites
-### Setup
-### Install
-### Usage
-### Run tests
-### Deployment
-
 ## Authors
 ### 👤 Eduardo Baeza
 
