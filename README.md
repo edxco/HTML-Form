@@ -9,10 +9,6 @@ We have normalize.css in a single file and style.css in another file.
 
 ![alt text](https://i.imgur.com/dEDsXw8.jpg "Preview Img")
 
-### Initial Sketch
-
-![alt text](https://i.imgur.com/vMfE774.jpg "Initial Sketch")
-
 This is an INTUIT login form layout clone. It's not functional, just for practicing design skills and use of forms.
 
 ## Built With
